@@ -5,7 +5,7 @@ i2c = I2C(scl=Pin(22), sda=Pin(21)) #ESP32:GPIO22 D2:GPIO21
 #i2c = I2C(scl=Pin(5), sda=Pin(4)) #D1-mini:GPIO5 D2:GPIO4
 
 oled = SSD1306_I2C(128, 64, i2c)
-
+//xx
 oled.text("I love PYTHON!", 0, 0)
 
 oled.fill(0)   #fill entire screen with colour=0
